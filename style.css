@@ -1,0 +1,180 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+}
+
+/* Title Section */
+
+#title {
+	background-color: #ff4c67;
+	padding: 0 10% 3.84%;
+}
+
+h1 {
+	color: white;
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 1.5;
+	padding-top: 3.84rem;
+}
+
+.phone-img {
+	transform: rotate(21deg);
+	margin-left: 0.84rem;
+	padding-top: 2.84rem;
+	position: absolute;
+	width: 14rem;
+}
+
+.navbar {
+	padding-left: 0;
+}
+
+.navbar-logo {
+	bottom: 7px;
+	margin-right: 0.21rem;
+	position: relative;
+	height: 3rem;
+	width: 2.1rem;
+}
+
+.navbar-brand {
+	font-family: 'Ubuntu';
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.nav-item {
+	margin: 0 15px;
+}
+
+.download-btn {
+	margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features {
+	padding: 10% 10% 7%;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}
+
+.features-col {
+	text-align: center;
+}
+
+.features-icon {
+	color: #ef8172;
+	margin-bottom: 0.84rem;
+}
+
+.features-icon:hover {
+	color: #ff4c68;
+}
+
+h3 {
+	font-family: 'Montserrat';
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+p {
+	color: #8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials {
+	background-color: #ef8172;
+	color: white;
+	text-align: center;
+}
+
+.carousel-item {
+	padding: 7% 20% 2%;
+}
+
+h2 {
+	font-weight: 700;
+}
+
+.testimonials-img {
+	border-radius: 100%;
+	margin: 0.84rem;
+	width: 21%;
+}
+
+/* Press Section */
+
+#press {
+	background-color: #ef8172;
+	padding: 4.2% 0% 2.1%;
+	text-align: center;
+}
+
+.press-logo {
+	margin: 1.4rem;
+	width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+	padding: 4.2rem;
+	text-align: center;
+}
+
+.pricing-card {
+	margin: 2.1rem;
+}
+
+/* CTA Section */
+
+#cta {
+	background-color: #ff4c68;
+	padding: 7% 20% 6%;
+	text-align: center;
+}
+
+.cta-h3 {
+	color: white;
+	font-size: 2.42rem;
+	font-weight: 900;
+}
+
+.cta-btn {
+	margin: 5% 3% 0 0;
+}
+
+/* Footer */
+
+#footer {
+	font-size: 0.84rem;
+	padding: 2.1% 20% 0;
+	text-align: center;
+}
+
+.footer-icon {
+	margin: 1.42rem 0.42rem;
+}
+
+.footer-icon:hover {
+	cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+	#title {
+		text-align: center;
+		padding-bottom: 7%;
+	}
+	.phone-img {
+		transform: rotate(0);
+		position: static;
+		margin-left: auto;
+	}
+}
